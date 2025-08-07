@@ -155,7 +155,7 @@ body.dark {
 
 
 /* Responsive layout */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr;
     text-align: center;
@@ -163,5 +163,8 @@ body.dark {
 
     .form-section form {
         text-align: left;
+    }
+    .header {
+        padding-top: 3.5rem; /* Enough space for icon */
     }
 }
