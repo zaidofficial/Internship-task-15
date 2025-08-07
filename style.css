@@ -155,7 +155,7 @@ body.dark {
 
 
 /* Responsive layout */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .grid {
         grid-template-columns: 1fr;
     text-align: center;
